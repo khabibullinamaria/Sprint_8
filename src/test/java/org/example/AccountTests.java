@@ -1,6 +1,7 @@
 package org.example;
 
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -31,6 +32,7 @@ public class AccountTests {
     }
 
     @Test
+    @DisplayName("accountTests")
     public void checkNameToEmbossTests() {
         Account account = new Account(name);
 
